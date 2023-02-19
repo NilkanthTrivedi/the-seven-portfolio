@@ -1,44 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
 }
-.navbar{
+.navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100px;
-    background-color: #06283D;
+    background-color: #06283d;
     display: flex;
     opacity: 0.9;
     z-index: 5;
 }
-.navbar .logo{
+.navbar .logo {
     width: 20%;
     height: 100px;
-    padding: 25px 50px;  
+    padding: 25px 50px;
 }
-.navbar .menu{
+.navbar .menu {
     width: 60%;
     height: 100px;
     padding-left: 100px;
 }
-.navbar .menu ul li{
+.navbar .menu ul li {
     display: inline;
 }
-.navbar .menu ul li button{
+.navbar .menu ul li button {
     margin: 0;
     background-color: transparent;
     border: none;
     padding: 40px 22px;
     transition: 0.3s;
 }
-.navbar .menu ul li button:hover{
-    background-color: #47B5FF;
+.navbar .menu ul li button:hover {
+    background-color: #47b5ff;
 }
-.navbar .menu ul li button a{
+.navbar .menu ul li button a {
     text-decoration: none;
     background: none;
     color: white;
@@ -46,55 +46,57 @@
     font-weight: 700;
     letter-spacing: 1px;
 }
-.navbar .social{
+.navbar .social {
     width: 20%;
     height: 100px;
     text-align: end;
     line-height: 100px;
     padding-right: 30px;
 }
-.navbar .social button{
+
+.navbar .social button {
     padding: 5px 7px;
     border-radius: 50%;
     background-color: white;
     transition: 0.3s;
 }
-.navbar .social button:first-child{
+.navbar .social button:first-child {
     padding: 5px 10px;
 }
-.navbar .social button a{
+.navbar .social button a {
     text-decoration: none;
     font-size: 16px;
     transition: 0.2s;
 }
-.navbar .social button:hover , a:hover{
+.navbar .social button:hover,
+a:hover {
     color: white;
-    background-color: #47B5FF;
+    background-color: #47b5ff;
 }
 
 /* .....NAVBAR ENDS HERE !!!..... */
-.container{
+.container {
     width: 100%;
     height: 700px;
-    background-color: #3A5BA0;
+    background-color: #3a5ba0;
     background: url("https://the7.io/creative/wp-content/uploads/sites/3/2016/01/ree.gif");
     background-size: 100% 100%;
     text-align: center;
     padding-top: 250px;
 }
-.container h1{
+.container h1 {
     font-size: 98px;
     color: white;
     font-weight: 900;
     letter-spacing: 5px;
 }
-.container h2{
+.container h2 {
     color: white;
     font-size: 64px;
     font-weight: 400;
     letter-spacing: 2px;
 }
-.container img{
+.container img {
     margin-top: 50px;
     width: 200px;
     height: 70px;
@@ -102,39 +104,39 @@
 /* ......Container Ends Here!!!............ */
 
 /*........Department Starts Here!!!.......*/
-.department{
+.department {
     width: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
 }
-.department .dept{
+.department .dept {
     width: 320px;
     height: 400px;
     padding: 70px 15px;
     text-align: center;
 }
-.department .dept .fa-solid{
+.department .dept .fa-solid {
     padding: 20px 23px;
     color: white;
-    background-color: #47B5FF;
+    background-color: #47b5ff;
     font-size: 26px;
     border-radius: 8px;
 }
-.department .dept h3{
+.department .dept h3 {
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 22px;
     letter-spacing: 0.8px;
     font-weight: 500;
 }
-.department .dept hr{
+.department .dept hr {
     width: 60px;
     margin: auto;
-    background-color: #47B5FF;
-    border: 1px solid #47B5FF;
+    background-color: #47b5ff;
+    border: 1px solid #47b5ff;
 }
-.department .dept p{
+.department .dept p {
     font-size: 16px;
     margin-top: 20px;
     line-height: 28px;
@@ -144,7 +146,7 @@
 /*........Department Ends Here!!!.......*/
 
 /* ..................Projects starts HERE!!!.................... */
-.projects{
+.projects {
     width: 100%;
     height: 850px;
     background: url("https://the7.io/creative/wp-content/uploads/sites/3/2014/03/skin05r.stripes-stripe-1-bg-image.gif");
@@ -153,20 +155,20 @@
     text-align: center;
     padding-top: 80px;
 }
-.projects h1{
+.projects h1 {
     font-size: 42px;
     font-weight: 400;
     letter-spacing: 2px;
     word-spacing: 10px;
 }
-.projects hr{
+.projects hr {
     width: 120px;
     margin: auto;
     margin-top: 20px;
-    background-color: #47B5FF;
-    border: 2px solid #47B5FF;
+    background-color: #47b5ff;
+    border: 2px solid #47b5ff;
 }
-.projects .p2{
+.projects .p2 {
     font-size: 16px;
     margin-top: 40px;
     line-height: 28px;
@@ -174,22 +176,22 @@
     color: #8c8c8c;
     padding: 30px;
 }
-.projects .proj_card{
+.projects .proj_card {
     width: 100%;
     height: 300px;
-    background-color: #47B5FF;
+    background-color: #47b5ff;
     margin-top: 50px;
     display: flex;
 }
-.projects .proj_card .proj{
+.projects .proj_card .proj {
     width: 20%;
     height: 300px;
 }
-.projects .proj_card .proj img{
+.projects .proj_card .proj img {
     width: 100%;
     height: 100%;
 }
-.other{
+.other {
     width: 100%;
     height: 150px;
     display: flex;
@@ -197,7 +199,7 @@
     align-items: center;
 }
 
-.other .view1{
+.other .view1 {
     width: 300px;
     height: 70px;
     border: 3px solid #0fbcf5;
@@ -208,7 +210,7 @@
     position: relative;
     z-index: 2;
 }
-.other .view2{
+.other .view2 {
     width: 300px;
     height: 70px;
     border: 3px solid #0fbcf5;
@@ -218,10 +220,10 @@
     position: relative;
     z-index: 2;
 }
-.other .fa-solid{
+.other .fa-solid {
     font-size: 24px;
 }
-.other .p1{
+.other .p1 {
     font-size: 17px;
     color: black;
     background: none;
@@ -231,7 +233,7 @@
     letter-spacing: 1px;
     line-height: 70px;
 }
-.view1::before{
+.view1::before {
     content: " ";
     position: absolute;
     top: -2px;
@@ -243,14 +245,14 @@
     z-index: -1;
     transition: all 0.5s;
 }
-.view1 .p1:hover{
+.view1 .p1:hover {
     color: white;
 }
-.view1:hover::before{
+.view1:hover::before {
     background-color: #0fbcf5;
 }
 
-.view2::before{
+.view2::before {
     content: " ";
     position: absolute;
     top: -2px;
@@ -262,14 +264,14 @@
     z-index: -1;
     transition: all 0.5s;
 }
-.view2 .p1:hover{
+.view2 .p1:hover {
     color: white;
 }
-.view2:hover::before{
+.view2:hover::before {
     background-color: #0fbcf5;
 }
 
-.other .or{
+.other .or {
     width: 40px;
     height: 40px;
     color: white;
@@ -287,7 +289,7 @@
 /* ..................Projects Ends HERE!!!...................... */
 
 /* ...............About-Us Strats Here !!!......... */
-.about-us{
+.about-us {
     width: 100%;
     height: 650px;
     background-color: white;
@@ -295,28 +297,28 @@
     justify-content: center;
     padding-top: 50px;
 }
-.about-us .our-skill{
+.about-us .our-skill {
     width: 40%;
     height: 600px;
     padding: 10px 20px;
 }
-.about-us .our-skill h2{
+.about-us .our-skill h2 {
     font-size: 26px;
     font-weight: 400;
 }
-.about-us .our-skill hr{
+.about-us .our-skill hr {
     width: 80px;
     margin-top: 15px;
-    background-color: #47B5FF;
-    border: 1.5px solid #47B5FF;
+    background-color: #47b5ff;
+    border: 1.5px solid #47b5ff;
 }
-.about-us .our-skill p{
+.about-us .our-skill p {
     margin-top: 50px;
     font-size: 16px;
     line-height: 28px;
     color: #8c8c8c;
 }
-.about-us .our-skill .special{
+.about-us .our-skill .special {
     width: 100%;
     height: 350px;
     margin-top: 30px;
@@ -324,7 +326,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.about-us .our-skill .special .x11{
+.about-us .our-skill .special .x11 {
     width: 95%;
     height: 50px;
     background-color: lightblue;
@@ -333,11 +335,11 @@
     line-height: 50px;
     padding-left: 20px;
 }
-.about-us .our-skill .special .brands{
+.about-us .our-skill .special .brands {
     width: 185px;
     height: 140px;
 }
-.about-us .our-skill .special .brands img{
+.about-us .our-skill .special .brands img {
     width: 90%;
     height: 80%;
 }
@@ -345,94 +347,94 @@
 
 /* .........Footer Card Starts Here........... */
 
-.footer_card{
+.footer_card {
     width: 100%;
     height: 550px;
     background-color: black;
     color: white;
     padding: 30px 150px;
 }
-.footer_card .footer{
+.footer_card .footer {
     width: 100%;
     height: 400px;
     display: flex;
 }
-.footer_card .footer .info{
+.footer_card .footer .info {
     width: 33%;
     height: 500px;
     padding: 10px 20px;
 }
-.footer_card .footer .info img{
+.footer_card .footer .info img {
     width: 68%;
     height: 35%;
     margin-bottom: 50px;
 }
-.footer_card .footer .info h4{
+.footer_card .footer .info h4 {
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 30px;
 }
-.footer_card .footer .info p span{
+.footer_card .footer .info p span {
     color: #8c8c8c;
 }
-.footer_card .footer .info p{
+.footer_card .footer .info p {
     color: white;
     line-height: 30px;
     font-size: 15px;
 }
-.footer_card .footer .info .album{
+.footer_card .footer .info .album {
     width: 100%;
     height: 50%;
     display: flex;
     flex-wrap: wrap;
 }
-.footer_card .footer .info .album .photoes{
+.footer_card .footer .info .album .photoes {
     width: 25%;
     height: 40%;
     border: 2px solid black;
     padding: 0.1%;
 }
-.footer_card .footer .info .album .photoes img{
+.footer_card .footer .info .album .photoes img {
     width: 100%;
     height: 100%;
 }
-.footer_card .support{
+.footer_card .support {
     width: 100%;
     height: 150px;
     line-height: 100px;
     color: #8c8c8c;
     display: flex;
 }
-.footer_card .support a{
+.footer_card .support a {
     text-decoration: none;
     background: none;
     color: white;
     font-size: 12px;
 }
-.footer_card .support .left{
+.footer_card .support .left {
     width: 50%;
     height: 100px;
     padding: 10px 20px;
     font-size: 12px;
     word-spacing: 2px;
 }
-.footer_card .support .right{
+.footer_card .support .right {
     width: 50%;
     height: 100px;
     text-align: right;
 }
-.footer_card .support .right ul li{
+.footer_card .support .right ul li {
     list-style: none;
     display: inline;
     padding-right: 24px;
 }
-.footer_card .support .right ul li a{
+.footer_card .support .right ul li a {
     font-size: 12px;
 }
 /* .........Footer Card Ends Here........... */
 
 /* .......END StartS HERE!!!..... */
-.end{
+.end {
     width: 100%;
     height: 100px;
     background: white;
